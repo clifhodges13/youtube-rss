@@ -1,7 +1,7 @@
 const URL = 'https://www.googleapis.com/youtube/v3/playlistItems'
 // const id = "PLhURsu87NO8u4SufTuhLST2umbNKuYj92";
 const id = 'PL6IZsZ1jgdAike3Rpu1Su4nC6dWRerTj6'
-const API_key = 'AIzaSyDOSc1miuFo_f19ZWlegjhcau28UtK55jA' // this is my personal api key. you can generate your own on the google developer console
+const API_key = // go to Google Developer Console to generate an API key, then place here as a string
 const params = {
   part: "snippet",
   playlistId: id,
