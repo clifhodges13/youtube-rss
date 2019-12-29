@@ -7,7 +7,6 @@ const params = {
   key: API_key,
   maxResults: 25
 }
-console.log(process.env)
 
 axios
   .get(URL, { params: params })
