@@ -69,10 +69,17 @@ function youtubeCardCreator(thumb, titleText, descText, dataKey, main) {
   desc.textContent = descText
   details.appendChild(desc)
 
+<<<<<<< HEAD
   if ('scrollRestoration' in window.history) {
     window.history.scrollRestoration = 'manual'
   }
   
+=======
+  const pullMain = function(main) {
+    return pullMain(main)
+  }
+
+>>>>>>> 18ec6116d9d358315b4d969fc893d43119471f08
 //   attach a click listener that will call the changeVidSource function, which, well, changes the main video source :)
   card.addEventListener('click', () => {
     changeVidSource(main)
